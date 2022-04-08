@@ -1,0 +1,27 @@
+.fooder {
+    background-image: linear-gradient(0, rgba(0,232,93, 0.5), rgba(0,232,93, 0.5)),
+        url('./fooder.png');
+    background-size: 100%;
+    padding: 30px 10%;
+    color: white;
+}
+
+.fooder a{
+    color: white;
+    text-decoration: none;
+}
+
+#BanQuyen {
+    text-align: center;
+    background: #00e85d;
+    padding: 10px;
+    color: white;
+}
+
+.fooder div p a:hover{
+    color: black;
+}
+
+.nav-link {
+    color: white;
+}

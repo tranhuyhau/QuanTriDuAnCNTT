@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center;">Đăng nhập</h1>
+        <form action="" style="width: 250px;margin: 0 auto;">
+            <h5>Tài khoản: <input type="text" id="taikhoan"></h5>
+            <h5>Mật khẩu: <input type="password" id="matkhau"></h5>
+            <button id="dangnhap">Đăng nhập</button>  
+        </form> 
+    </div>
+    <script type="text/javascript""> 
+        var taikhoan = document.getElementById('taikhoan').value;
+        var matkhau = document.getElementById('matkhau').value;
+        document.getElementById("dangnhap").onclick = function(){
+            if(taikhoan == "admin" && matkhau == "admin"){
+                alert("Đăng nhập thành công");  
+                location.href = "OnTap3.html";           
+            }
+            else{
+                alert('Lỗiiiiiiiiiii');
+                return false;
+            }       
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.SC {
+    background-color: #cc9900;
+}
+
+.Otrong {
+    background-color: #cccccc;
+}
+
+.LTĐT {
+    background-color: #00e85d;
+}
+
+.CSDL {
+    background-color: #88b52d;
+}
+
+.HĐH {
+    background-color: #8f6030;
+}
+
+.LTPHP {
+    background-color: #bebe2f;
+}
+
+.ToanA1 {
+    background-color: #ccff66;
+}
+
+.UML {
+    background-color: #99ffcc;
+}
+
+.VLA1 {
+    background-color: #ff6666;
+}
+
+.TKCSDL {
+    background-color: #cc6666;
+}
+
+.CacThu td {
+    padding: 5px;;
+}
+
+td {
+    padding: 5px;
+}
+
+.phong {
+    font-weight: bold;
+}
