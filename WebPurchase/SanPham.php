@@ -13,7 +13,7 @@
 <body>
     <?php
     require_once("../db/connect.php");
-    require_once("./header.php")
+    // require_once("./header.php")
     ?>
     <?php
     $sql_lsp = 'SELECT * FROM `loaisanpham` WHERE ID = ' . $_GET["IDSanPham"] . '';
